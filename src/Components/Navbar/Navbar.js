@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { CategoryContext } from "../../Context/CategoryContext";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("");
+  const [menu, setMenu] = useState("changecategory");
   const { getTotalCartItems } = useContext(CategoryContext);
   return (
     <div className="container-fluid ">
@@ -18,7 +18,6 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto me-5 ms-1 mt-3 ">
-              
               <li
                 className={menu === "changecategory" ? "nav-link active" : ""}
                 onClick={() => {
