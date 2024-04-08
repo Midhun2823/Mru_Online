@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mru_Online/static/css/main.40ec9eb8.css",
-    "main.js": "/Mru_Online/static/js/main.b780fee0.js",
+    "main.js": "/Mru_Online/static/js/main.b045bb7a.js",
     "static/js/453.4147bdd8.chunk.js": "/Mru_Online/static/js/453.4147bdd8.chunk.js",
     "static/media/Start_Chick_65.png": "/Mru_Online/static/media/Start_Chick_65.5a5808ddbcce616f7df9.png",
     "static/media/MRU_Stationary.png": "/Mru_Online/static/media/MRU_Stationary.cd256c19b3c8f07e5ea9.png",
@@ -50,11 +50,11 @@
     "static/media/Ice_Softy.avif": "/Mru_Online/static/media/Ice_Softy.3ba6b3e64b55e36ce133.avif",
     "index.html": "/Mru_Online/index.html",
     "main.40ec9eb8.css.map": "/Mru_Online/static/css/main.40ec9eb8.css.map",
-    "main.b780fee0.js.map": "/Mru_Online/static/js/main.b780fee0.js.map",
+    "main.b045bb7a.js.map": "/Mru_Online/static/js/main.b045bb7a.js.map",
     "453.4147bdd8.chunk.js.map": "/Mru_Online/static/js/453.4147bdd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40ec9eb8.css",
-    "static/js/main.b780fee0.js"
+    "static/js/main.b045bb7a.js"
   ]
 }
