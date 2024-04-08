@@ -18,22 +18,23 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto me-5 ms-1 mt-3 ">
+              
               <li
-                className="nav-item"
+                className={menu === "changecategory" ? "nav-link active" : ""}
                 onClick={() => {
-                  setMenu("");
+                  setMenu("changecategory");
                 }}
               >
-                <a className="nav-link disabled me-1">
-                  <Link to="/" className="nav-link">
-                    Change category
+                <div className="me-2">
+                  <Link to="/changecategory" className="nav-link">
+                    Category
                   </Link>
-                  {menu === "" ? (
+                  {menu === "changecategory" ? (
                     <hr className="border border-danger border-3 opacity-75 rounded-pill" />
                   ) : (
                     ""
                   )}
-                </a>
+                </div>
               </li>
               <li
                 className={menu === "tiffins" ? "nav-link active" : ""}

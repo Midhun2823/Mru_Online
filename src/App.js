@@ -21,7 +21,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<ChangeCategory />} />
+          <Route path="/changecategory" element={<ChangeCategory category="changecategory"/> } />
           <Route
             path="/tiffins"
             element={<SubCategory banner={tiffins_banner} category="tiffins" />}

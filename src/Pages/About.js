@@ -93,12 +93,12 @@ const About = () => {
                 </h6>
                 <p class="card-text">Java | Android | HTML | CSS | Python</p>
                 <a
-                  href="https://www.linkedin.com/in/midhunnagasai/"
+                  href="https://www.linkedin.com/in/murali-krishna-928629255/"
                   class="card-link"
                 >
                   <img src={LinkedIn} width="60" />
                 </a>
-                <a href="https://github.com/Midhun2823" class="card-link">
+                <a href="" class="card-link">
                   <img src={GitHub} width="100" />
                 </a>
               </div>
@@ -127,7 +127,7 @@ const About = () => {
             <div className="col-md-4 p-3"></div>
             <div className="col-md-4 p-3"></div>
             <div className="col-md-12 p-3"></div>
-            
+
             <div className="col-md-4 p-3">
               <div class="card" style={{ width: "18rem" }}>
                 <div class="card-body">
