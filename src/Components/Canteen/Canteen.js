@@ -53,10 +53,10 @@ const Canteen = () => {
               </button>
               <div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item">a</li>
-                  <li className="list-group-item">a</li>
-                  <li className="list-group-item">a</li>
-                  <li className="list-group-item">a</li>
+                  <li className="list-group-item">Upcoming......</li>
+                  <li className="list-group-item">Upcoming......</li>
+                  <li className="list-group-item">Upcoming......</li>
+                  <li className="list-group-item">Upcoming......</li>
                 </ul>
               </div>
             </center>

@@ -12,7 +12,10 @@ const Navbar = () => {
     <div className="container-fluid ">
       <nav className="navbar navbar-expand-lg bg-secondary bg-opacity-25">
         <div className="container-fluid ">
-          <a className="navbar-brand bg-primary" href="#">
+          <a
+            className="navbar-brand bg-primary"
+            href="https://www.mallareddyuniversity.ac.in/"
+          >
             <img src={logo} width="200" />
           </a>
 
@@ -25,7 +28,7 @@ const Navbar = () => {
                 }}
               >
                 <div className="me-2">
-                  <Link to="/changecategory" className="nav-link">
+                  <Link to="/" className="nav-link">
                     Category
                   </Link>
                   {menu === "changecategory" ? (
@@ -139,21 +142,35 @@ const Navbar = () => {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <Link to="/login">
+              {/* for dynamic change when we login and logout */}
+              {localStorage.getItem("auth-token") ? (
                 <button
+                  onClick={() => {
+                    localStorage.removeItem("auth-token");
+                    window.location.replace("/");
+                  }}
                   type="button"
                   className="btn bg-danger text-warning bg-opacity-100 rounded-pill px-5 me-5"
                 >
-                  Login
+                  Logout
                 </button>
-              </Link>
+              ) : (
+                <Link to="/login">
+                  <button
+                    type="button"
+                    className="btn bg-danger text-warning bg-opacity-100 rounded-pill px-5 me-5"
+                  >
+                    Login
+                  </button>
+                </Link>
+              )}
               <Link to="/cart">
                 <button
                   className="btn btn-outline-danger position-relative"
                   type="submit"
                 >
                   <img src={cart} height="30" />
-                  <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2">
+                  <span className="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2">
                     {getTotalCartItems()}
                   </span>
                 </button>
