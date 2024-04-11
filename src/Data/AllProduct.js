@@ -54,7 +54,7 @@ let all_product = [
     new_price: 35,
     old_price: 45,
     sub_category: "tiffins",
-    des: "Idli is a healthy, low-calorie South Indian breakfast food that's rich in carbohydrates, protein",
+    des: "Idly is a healthy, low-calorie South Indian breakfast food that's rich in carbohydrates, protein",
   },
   {
     id: 3,
