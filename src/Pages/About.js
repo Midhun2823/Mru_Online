@@ -172,12 +172,13 @@ const About = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-4 p-3">
               <div className="card" style={{ width: "18rem" }}>
                 <div className="card-body">
-                  <h5 className="card-title">Dr. Raviteja Kocherla</h5>
+                  <h5 className="card-title">Mr. M. Gouthamm</h5>
                   <h6 className="card-subtitle mb-2 text-body-secondary">
-                    MRUH Professor
+                    MRUH Assistant Professor
                   </h6>
 
                   {/* <a href="" className="card-link">
@@ -192,9 +193,9 @@ const About = () => {
             <div className="col-md-4 p-3">
               <div className="card" style={{ width: "18rem" }}>
                 <div className="card-body">
-                  <h5 className="card-title">Mr. M. Gouthamm</h5>
+                  <h5 className="card-title">Dr. Raviteja Kocherla</h5>
                   <h6 className="card-subtitle mb-2 text-body-secondary">
-                    MRUH Assistant Professor
+                    MRUH Professor
                   </h6>
 
                   {/* <a href="" className="card-link">
