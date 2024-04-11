@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mru_Online/static/css/main.40ec9eb8.css",
-    "main.js": "/Mru_Online/static/js/main.d62dd304.js",
+    "main.js": "/Mru_Online/static/js/main.89420e1c.js",
     "static/js/453.5cc691b8.chunk.js": "/Mru_Online/static/js/453.5cc691b8.chunk.js",
     "static/media/MRU_Stationary.png": "/Mru_Online/static/media/MRU_Stationary.cd256c19b3c8f07e5ea9.png",
     "static/media/IceCream_banner.png": "/Mru_Online/static/media/IceCream_banner.8c83b07ea26859c79a47.png",
@@ -15,11 +15,11 @@
     "static/media/MRU-Logo.webp": "/Mru_Online/static/media/MRU-Logo.229824ce1e065e496875.webp",
     "index.html": "/Mru_Online/index.html",
     "main.40ec9eb8.css.map": "/Mru_Online/static/css/main.40ec9eb8.css.map",
-    "main.d62dd304.js.map": "/Mru_Online/static/js/main.d62dd304.js.map",
+    "main.89420e1c.js.map": "/Mru_Online/static/js/main.89420e1c.js.map",
     "453.5cc691b8.chunk.js.map": "/Mru_Online/static/js/453.5cc691b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40ec9eb8.css",
-    "static/js/main.d62dd304.js"
+    "static/js/main.89420e1c.js"
   ]
 }
