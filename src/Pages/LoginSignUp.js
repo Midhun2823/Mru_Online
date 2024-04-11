@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
 
 const LoginSignUp = () => {
   // for creating login here we should create state variable
@@ -16,7 +18,7 @@ const LoginSignUp = () => {
   const login = async () => {
     console.log("Login Function Called", formData);
     let reponseData;
-    await fetch("http://localhost:4000/login", {
+    await fetch(`${BACKEND_URL}/login`, {
       method: "POST",
       headers: {
         Accept: "application/form-data",
@@ -42,7 +44,7 @@ const LoginSignUp = () => {
   const signup = async () => {
     console.log("SignUp Function Called", formData);
     let reponseData;
-    await fetch("http://localhost:4000/signup", {
+    await fetch(`${BACKEND_URL}/signup`, {
       method: "POST",
       headers: {
         Accept: "application/form-data",

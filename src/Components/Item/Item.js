@@ -7,7 +7,7 @@ const Item = (props) => {
       className="card position-relative"
       style={{ width: "18rem", height: "30rem" }}
     >
-      <Link to={`/product/${props.id}`}>
+      <Link to={`/allproduct/${props.id}`}>
         <img src={props.image} className="card-img-top" height="250" />
       </Link>
       <div className="card-body">
