@@ -13,7 +13,7 @@ const About = () => {
               <div className="card-body">
                 <h5 className="card-title">M. Midhun Naga Sai</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">
-                  MRUH B.Tech 3rd CSE
+                  MRUH (B.Tech CSE 3rd Year)
                 </h6>
                 <p className="card-text">
                   Java | Android | MERN | MEAN | DSA | Jetpack Compose
@@ -35,12 +35,15 @@ const About = () => {
               <div className="card-body">
                 <h5 className="card-title">M. Harsha Sree</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">
-                  MRUH B.Tech 1st CSE
+                  MRUH (B.Tech CSE 1st Year)
                 </h6>
                 <p className="card-text">
                   Java | Python | MERN | DSA | HTML | CSS | JS
                 </p>
-                <a href="" className="card-link">
+                <a
+                  href="https://www.linkedin.com/in/harsha-sree-03257b282/"
+                  className="card-link"
+                >
                   <img src={LinkedIn} width="60" />
                 </a>
                 <a className="card-link">
@@ -54,7 +57,7 @@ const About = () => {
               <div className="card-body">
                 <h5 className="card-title">R. Muralidhar Reddy</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">
-                  MRUH B.Tech 3rd CSE
+                  MRUH (B.Tech CSE 3rd Year)
                 </h6>
                 <p className="card-text">
                   Python | Java | ML | DSA | MERN | HTML
@@ -76,7 +79,7 @@ const About = () => {
               <div className="card-body">
                 <h5 className="card-title">S. Madhav</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">
-                  MRUH B.Tech 3rd CSE
+                  MRUH (B.Tech CSE 3rd Year)
                 </h6>
                 <p className="card-text">
                   Java | Android | Python | HTML | CSS{" "}
@@ -95,7 +98,7 @@ const About = () => {
               <div className="card-body">
                 <h5 className="card-title">N. Ajay</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">
-                  MRUH B.Tech 3rd CSE
+                  MRUH (B.Tech CSE 3rd Year)
                 </h6>
                 <p className="card-text">
                   Java | PowerBI | Python | HTML | CSS | Android
@@ -114,7 +117,7 @@ const About = () => {
               <div className="card-body">
                 <h5 className="card-title">S. Murali Krishna</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary">
-                  MRUH B.Tech 3rd CSE
+                  MRUH (B.Tech CSE 3rd Year)
                 </h6>
                 <p className="card-text">
                   Java | Android | HTML | CSS | Python
@@ -160,7 +163,7 @@ const About = () => {
                 <div className="card-body">
                   <h5 className="card-title">Dr. M. Santhosh Kumar</h5>
                   <h6 className="card-subtitle mb-2 text-body-secondary">
-                    MRUH Professor
+                    MRUH (Professor)
                   </h6>
 
                   {/* <a href="" class="card-link">
@@ -178,7 +181,7 @@ const About = () => {
                 <div className="card-body">
                   <h5 className="card-title">Mr. M. Gouthamm</h5>
                   <h6 className="card-subtitle mb-2 text-body-secondary">
-                    MRUH Assistant Professor
+                    MRUH (Assistant Professor)
                   </h6>
 
                   {/* <a href="" className="card-link">
@@ -195,7 +198,7 @@ const About = () => {
                 <div className="card-body">
                   <h5 className="card-title">Dr. Raviteja Kocherla</h5>
                   <h6 className="card-subtitle mb-2 text-body-secondary">
-                    MRUH Professor
+                    MRUH (Professor)
                   </h6>
 
                   {/* <a href="" className="card-link">
